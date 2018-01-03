@@ -17,10 +17,12 @@
 * @param isFilled 是否填充颜色
 * @param isShade 填充颜色是否渐变
 * @return 返回 QCLineView
-
+```objective-c
 + (QCLineView *)qcLineViewWithFrame:(CGRect)frame IsKeepAxis:(BOOL)isKeepAxis 
-         XTitleList:(NSArray *)xTitleList YTitleList:(NSArray *)yTitleList 
-         Points:(NSArray <NSArray<NSString *>*>*)points  
-         XUnit:(NSString *)Xunit YUnit:(NSString *)Yunit 
-         maxXValue:(CGFloat)maxX maxYValue:(CGFloat)maxY 
-         IsFilled:(BOOL)isFilled IsShade:(BOOL)isShade
+  XTitleList:(NSArray *)xTitleList YTitleList:(NSArray*)yTitleList 
+  Points:(NSArray <NSArray<NSString *>*>*)points  
+  XUnit:(NSString *)Xunit YUnit:(NSString *)Yunit 
+  maxXValue:(CGFloat)maxX maxYValue:(CGFloat)maxY 
+  IsFilled:(BOOL)isFilled IsShade:(BOOL)isShade
+```
+
